@@ -1,0 +1,7 @@
+# Service to Profession
+
+```{r service to profession}
+ezpickr::pick("data/service-to-profession.xlsx") %>%
+  tidyr::fill(-where, -why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```

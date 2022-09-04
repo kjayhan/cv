@@ -1,0 +1,27 @@
+# Publications
+
+
+<!-- # Selected Publications -->
+<!--  -->
+<!-- ::: {#refs_selected} -->
+<!-- ::: -->
+
+## Journal Articles
+
+::: {#refs_journals}
+:::
+
+## Book Chapters
+
+::: {#refs_section}
+:::
+
+## Books
+
+::: {#refs_books}
+:::
+
+## Book Reviews
+
+::: {#refs_reviews}
+:::

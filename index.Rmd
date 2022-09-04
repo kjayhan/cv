@@ -1,0 +1,42 @@
+---
+graphics: yes
+name: Kadir Jun
+surname: Ayhan
+headcolor: 414141
+#qualifications: 
+position: "Ph.D."
+address: "52 Ewhayeodae-gil, Daehyeon-dong, Seodaemun-gu, Seoul, Republic of Korea"
+phone: "+82-2-3277-4628"
+www: kjayhan.github.io
+email: "ayhan@ewha.ac.kr"
+twitter: kadirayhan
+github: kjayhan
+linkedin: kadirjunayhan
+aboutme: |
+  Assistant Professor of International Relations at Ewha Womans University Graduate School of International Studies.
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+csl: "csl/apa7-cv.csl"
+
+nocite: "@*"
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyhead[R]{\thepage}
+knit: bookdown::render_book
+#bibliography_selected: "bib/selected.bib"
+bibliography_journals: "bib/journals.bib"
+bibliography_section: "bib/section.bib"
+bibliography_books: "bib/books.bib"
+bibliography_reviews: "bib/reviews.bib"
+#given-name-pattern: Kadir Jun
+#family-name-pattern: Ayhan
+---
+
+```{r setup, include=FALSE, cache = FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(ezpickr)
+```

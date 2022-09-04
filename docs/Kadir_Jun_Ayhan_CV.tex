@@ -1,0 +1,858 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{414141}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Kadir Jun}{Ayhan}
+
+\position{Ph.D.}
+\address{52 Ewhayeodae-gil, Daehyeon-dong, Seodaemun-gu, Seoul, Republic
+of Korea}
+
+\mobile{+82-2-3277-4628}
+\email{\href{mailto:ayhan@ewha.ac.kr}{\nolinkurl{ayhan@ewha.ac.kr}}}
+\homepage{kjayhan.github.io}
+\github{kjayhan}
+\linkedin{kadirjunayhan}
+\twitter{kadirayhan}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{Assistant Professor of International Relations at Ewha Womans
+University Graduate School of International Studies.}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {September 04, 2022}
+    {Kadir Jun Ayhan~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{cventries}
+    \cventry{Ph.D. in International Studies}{Seoul National University Graduate School of International Studies}{Seoul, South Korea}{2016}{}\vspace{-4.0mm}
+    \cventry{Master in International Studies}{Seoul National University Graduate School of International Studies}{Seoul, South Korea}{2010}{}\vspace{-4.0mm}
+    \cventry{Bachelor of Commerce in Economics, International Trade (Double Majors)}{The University of Auckland}{Auckland, New Zealand}{2008}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{professional-experience-selected}{%
+\section{Professional Experience
+(Selected)}\label{professional-experience-selected}}
+
+\begin{cventries}
+    \cventry{Assistant Professor}{Graduate School of International Studies}{Ewha Womans University}{March 2021 - Present}{\begin{cvitems}
+\item Ph.D. Director
+\item Public Diplomacy Center Vice Director
+\end{cvitems}}
+    \cventry{Member}{Steering Advisory Committee for Empowerment of Cultural Exchanges and Cooperation}{Korea Foundation}{October 2021 - Present}{}\vspace{-4.0mm}
+    \cventry{Member}{National Unity Committee}{Republic of Korea Presidential Transition Committee}{April 2022 - June 2022}{}\vspace{-4.0mm}
+    \cventry{Visiting Professor}{Division of International Studies}{Hankuk University of Foreign Studies}{March 2020 - February 2021}{}\vspace{-4.0mm}
+    \cventry{Assistant Professor}{Graduate School of International and Area Studies}{Hankuk University of Foreign Studies}{March 2017 - February 2020}{}\vspace{-4.0mm}
+    \cventry{Visiting Fellow}{Institute for Public Diplomacy and Global Communication}{George Washington University}{June 2018 - August 2018}{}\vspace{-4.0mm}
+    \cventry{Lecturer}{Graduate School of International Studies}{Seoul National University}{September 2015 - February 2017}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\hypertarget{journal-articles}{%
+\subsection{Journal Articles}\label{journal-articles}}
+
+\hypertarget{refs_journals}{}
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_inter-korean_nodate}{}}%
+Ayhan, K. J., \& Jang, S. (n.d.). Inter-{Korean} {People}-to-{People}
+{Diplomacy}: {Social} and {Cultural} {Exchanges} across the 38th
+{Parallel}. \emph{The Hague Journal of Diplomacy}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_english_2022}{}}%
+Ayhan, K. J. (2022). An {English} {School} of {International}
+{Relations} {Approach} to {Public} {Diplomacy}: {A} {Public} {Diplomacy}
+{Framework} for {Global} {Governance} {Issues}. \emph{Journal of Public
+Diplomacy}, \emph{2}(1), 1--4.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_south_2022}{}}%
+Ayhan, K. J. (2022). South {Korea}'s {Public} {Diplomacy} during the
+{COVID}-19 {Pandemic}: {Seeking} {Status} as an {Authority} in {Global}
+{Governance}. \emph{KEI Academic Paper Series}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_exploring_2022}{}}%
+Ayhan, K. J., Gouda, M., \& Lee, H. (2022). Exploring {Global} {Korea}
+{Scholarship} as a {Public} {Diplomacy} {Tool}. \emph{Journal of Asian
+and African Studies}, \emph{57}(4), 872--893.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_moving_2022}{}}%
+Ayhan, K. J., \& Sevin, E. (2022). Moving public diplomacy research
+forward: Methodological approaches. \emph{Place Branding and Public
+Diplomacy}, \emph{18}(3), 201--203.
+
+\leavevmode\vadjust pre{\hypertarget{ref-varpahovskis_impact_2022}{}}%
+Varpahovskis, E., \& Ayhan, K. J. (2022). Impact of country image on
+relationship maintenance: A case study of {Korean} {Government}
+{Scholarship} {Program} alumni. \emph{Place Branding and Public
+Diplomacy}, \emph{18}(2), 52--64.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_journal_2021}{}}%
+Ayhan, K. J. (2021). Journal of {Public} {Diplomacy}: {Sunrise} of a
+{New} {Interdisciplinary} {Journal} for an {Emerging} {Academic}
+{Field}. \emph{Journal of Public Diplomacy}, \emph{1}(1), 1--4.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_determinants_2021}{}}%
+Ayhan, K. J., \& Gouda, M. (2021). Determinants of {Global} {Korea}
+{Scholarship} students' word-of-mouth about {Korea}. \emph{Asia Pacific
+Education Review}, \emph{22}(1), 15--29.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_introduction_2021}{}}%
+Ayhan, K. J., \& Snow, N. (2021). Introduction to the special
+issue---{Global} {Korea} {Scholarship}: {Empirical} evaluation of a
+non-{Western} scholarship program from a public diplomacy perspective.
+\emph{Politics \& Policy}, \emph{49}(6), 1282--1291.
+
+\leavevmode\vadjust pre{\hypertarget{ref-hong_international_2021}{}}%
+Hong, M. S., Jeong, M., \& Ayhan, K. J. (2021). International
+{Scholarship} for {Social} {Change}? {Re}-contextualizing {Global}
+{Scholarship} {Alumni}'s {Perceptions} of {Diversity} and {Justice} in
+{South} {Korea}. \emph{Politics \& Policy}, \emph{49}(6).
+
+\leavevmode\vadjust pre{\hypertarget{ref-istad_global_2021}{}}%
+Istad, F., Varpahovskis, E., Miezan, E., \& Ayhan, K. J. (2021). Global
+{Korea} {Scholarship} students: {Intention} to stay in the host country
+to work or study after graduation. \emph{Politics \& Policy},
+\emph{49}(6), 1323--1342.
+
+\leavevmode\vadjust pre{\hypertarget{ref-jon_satisfied_2021}{}}%
+Jon, J.-E., \& Ayhan, K. J. (2021). Satisfied or dissatisfied: {The}
+determinants of {Global} {Korea} {Scholarship} recipients' satisfaction
+with life in {Korea}. \emph{Politics \& Policy}, \emph{49}(6),
+1391--1414.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sevin_capturing_2021}{}}%
+Sevin, E., Ayhan, K. J., \& Ingenhoff, D. (2021). Capturing country
+images: A methodological approach. \emph{The Journal of International
+Communication}, \emph{27}(2), 237--257.
+
+\leavevmode\vadjust pre{\hypertarget{ref-tam_evaluations_2021}{}}%
+Tam, L., \& Ayhan, K. J. (2021). Evaluations of people, affection, and
+recommendation for a host country: {A} study of {Global} {Korea}
+{Scholarship} ({GKS}) recipients. \emph{Politics \& Policy},
+\emph{49}(6), 1292--1307.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_exploration_2020}{}}%
+Ayhan, K. J. (2020). An {Exploration} of {Korean} {Discourses} on
+{Public} {Diplomacy}. \emph{Journal of Contemporary Eastern Asia},
+\emph{19}(1), 31--42.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_transferring_2020}{}}%
+Ayhan, K. J. (2020). Transferring {Knowledge} to {Narrative} {Worlds}:
+{Applying} {Power} {Taxonomy} to {Science} {Fiction} {Films}.
+\emph{International Studies Perspectives}, \emph{21}(3), 258--274.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sevin_analyzing_2020}{}}%
+Sevin, E., Ayhan, K. J., \& Ingenhoff, D. (2020). Analyzing {Country}
+{Images} through {Networks}: {Case} of {South} {Korea}. \emph{Asian
+International Studies Review}, \emph{21}(2), 95--119.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_rethinking_2019}{}}%
+Ayhan, K. J. (2019). Rethinking {Korea}'s {Middle} {Power} {Diplomacy}
+as a {Nation} {Branding} {Project}. \emph{Korea Observer}, \emph{50}(1),
+1--24.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_boundaries_2019}{}}%
+Ayhan, K. J. (2019). The {Boundaries} of {Public} {Diplomacy} and
+{Non}-{State} {Actors}: {A} {Taxonomy} of {Perspectives}.
+\emph{International Studies Perspectives}, \emph{20}(1), 63--83.
+
+\leavevmode\vadjust pre{\hypertarget{ref-choi_why_2019}{}}%
+Choi, S., Tam, L., Ayhan, K. J., \& Lee, D. (2019). Why and {How} {Do}
+{Sojourners} {Talk} about {Macao}? {Effects} of {Perceived} {Risk} and
+{Expected} {Benefit}. \emph{Asian International Studies Review},
+\emph{20}(2), 29--51.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_branding_2018}{}}%
+Ayhan, K. J. (2018). Branding {Korea} as {``{My} {Friend}'s
+{Country}''}: {The} {Case} of {VANK}'s {Cyber} {Public} {Diplomats}.
+\emph{Korea Observer}, \emph{49}(1), 51--81.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_special_2018}{}}%
+Ayhan, K. J. (2018). Special {Issue} on {Soft} {Power} and {Public}
+{Diplomacy} in {East} {Asia}. \emph{Journal of Contemporary Eastern
+Asia}, \emph{17}(1), 1--4.
+
+\leavevmode\vadjust pre{\hypertarget{ref-lee_why_2015}{}}%
+Lee, G., \& Ayhan, K. J. (2015). Why {Do} {We} {Need} {Non}-state
+{Actors} in {Public} {Diplomacy}?: {Theoretical} {Discussion} of
+{Relational}, {Networked} and {Collaborative} {Public} {Diplomacy}.
+\emph{Journal of International and Area Studies}, \emph{23}(1), 57--77.
+
+\hypertarget{book-chapters}{%
+\subsection{Book Chapters}\label{book-chapters}}
+
+\hypertarget{refs_section}{}
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_competition_2020}{}}%
+Ayhan, K. J. (2020). Competition for {Hearts} and {Minds}: {Cold} {War}
+{Public} {Diplomacy}. \emph{International Studies Review}, \emph{22}(4),
+988--989. \url{https://doi.org/10.1093/isr/viaa038}
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_book_2019}{}}%
+Ayhan, K. J. (2019). {[}{Book} {Review} for {James} {Pamment} and
+{Karin} {Gwinn} {Wilkins} ({Eds}.) (2018). {Communicating} {National}
+{Image} through {Development} and {Diplomacy}: {The} {Politics} of
+{Foreign} {Aid}. {Palgrave} {Macmillan}{]}. \emph{International Journal
+of Communication}, \emph{13}, 1--4.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_book_2019-1}{}}%
+Ayhan, K. J. (2019). {[}{Book} {Review} for {Scott} {A}. {Snyder}
+(2018). {South} {Korea} at the {Crossroads}: {Autonomy} and {Alliance}
+in an {Era} of {Rival} {Powers}. {Columbia} {University} {Press}{]}.
+\emph{International Affairs}, \emph{95}(4), 961--962.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_book_2018}{}}%
+Ayhan, K. J. (2018). {[}{Book} {Review} for {Review} of the book
+{[}{Wiseman}, {G}. (2015). {Isolate} or {Engage}: {Adversarial}
+{States}, {U}.{S}. {Foreign} {Policy}, and {Public} {Diplomacy}.
+{Stanford} {University} {Press}{]}. \emph{Croatian International
+Relations Review}, \emph{24}(81), 146--149.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_connecting_2018}{}}%
+Ayhan, K. J. (2018). Connecting {Public} {Diplomacy} and {Foreign}
+{Policy}. \emph{International Studies Review}, \emph{20}(3), 539--540.
+
+\hypertarget{books}{%
+\subsection{Books}\label{books}}
+
+\hypertarget{refs_books}{}
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_koreas_2017}{}}%
+Ayhan, K. J. (2017). \emph{Korea's {Soft} {Power} and {Public}
+{Diplomacy}}. Hangang Network.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_koreas_2016}{}}%
+Ayhan, K. J. (2016). \emph{Korea's {Public} {Diplomacy}}. Hangang
+Network.
+
+\hypertarget{book-reviews}{%
+\subsection{Book Reviews}\label{book-reviews}}
+
+\hypertarget{refs_reviews}{}
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_competition_2020}{}}%
+Ayhan, K. J. (2020). Competition for {Hearts} and {Minds}: {Cold} {War}
+{Public} {Diplomacy}. \emph{International Studies Review}, \emph{22}(4),
+988--989. \url{https://doi.org/10.1093/isr/viaa038}
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_book_2019}{}}%
+Ayhan, K. J. (2019). {[}{Book} {Review} for {James} {Pamment} and
+{Karin} {Gwinn} {Wilkins} ({Eds}.) (2018). {Communicating} {National}
+{Image} through {Development} and {Diplomacy}: {The} {Politics} of
+{Foreign} {Aid}. {Palgrave} {Macmillan}{]}. \emph{International Journal
+of Communication}, \emph{13}, 1--4.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_book_2019-1}{}}%
+Ayhan, K. J. (2019). {[}{Book} {Review} for {Scott} {A}. {Snyder}
+(2018). {South} {Korea} at the {Crossroads}: {Autonomy} and {Alliance}
+in an {Era} of {Rival} {Powers}. {Columbia} {University} {Press}{]}.
+\emph{International Affairs}, \emph{95}(4), 961--962.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_book_2018}{}}%
+Ayhan, K. J. (2018). {[}{Book} {Review} for {Review} of the book
+{[}{Wiseman}, {G}. (2015). {Isolate} or {Engage}: {Adversarial}
+{States}, {U}.{S}. {Foreign} {Policy}, and {Public} {Diplomacy}.
+{Stanford} {University} {Press}{]}. \emph{Croatian International
+Relations Review}, \emph{24}(81), 146--149.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ayhan_connecting_2018}{}}%
+Ayhan, K. J. (2018). Connecting {Public} {Diplomacy} and {Foreign}
+{Policy}. \emph{International Studies Review}, \emph{20}(3), 539--540.
+
+\hypertarget{grants}{%
+\section{Grants}\label{grants}}
+
+\begin{cventries}
+    \cventry{Korea International Economic Policy}{Graduate Program for Area Studies (European Studies)}{Ewha Womans University Graduate School of International Studies}{2022-23}{\begin{cvitems}
+\item 100 million KRW (roughly \$75,000)
+\end{cvitems}}
+    \cventry{Korea Foundation}{Korean-German Junior Forum}{Ewha Public Diplomacy Center (with Kisuk Cho)}{2022}{\begin{cvitems}
+\item 61.72 million KRW (roughly \$47,000)
+\end{cvitems}}
+    \cventry{Ewha Womans University}{Incentive Award Research Project: “Rethinking Soft Power from Power-recipient’s Perspective”}{Individual}{2022}{\begin{cvitems}
+\item 3.6 million KRW (roughly \$3,000)
+\end{cvitems}}
+    \cventry{Korea Foundation}{Korean-German Junior Forum}{Ewha Public Diplomacy Center (with Kisuk Cho)}{2021}{\begin{cvitems}
+\item 34 million KRW (roughly \$30,000)
+\end{cvitems}}
+    \cventry{Ewha Womans University}{New Faculty Research Project: “International Student Mobility Programs in International Relations Theory”}{Individual}{2021}{\begin{cvitems}
+\item 20 million KRW (roughly \$18,000)
+\end{cvitems}}
+    \cventry{Korean Ministry of Foreign Affairs}{“Korea’s Public Diplomacy Article Contest” and book on the same topic}{Global Public Diplomacy Center}{2020}{\begin{cvitems}
+\item 18.7 million KRW (roughly \$15,000)
+\end{cvitems}}
+    \cventry{Korea Foundation}{Policy-oriented Research Support Program: “An Experiment on the Effects of Social Identification on Support for Inter-Korean Public Diplomacy Policies Using Mediated and Interpersonal Communication”}{with Lindsey Bier, Park Han-Woo and Park Sejung}{2020}{\begin{cvitems}
+\item \$50,000
+\end{cvitems}}
+    \cventry{NSF-funded (SSEER) network, CONVERGE facility, Natural Hazards Center at University of Colorado Boulder}{CONVERGE facility, Natural Hazards Center at University of Colorado Boulder: “Mapping China’s Public Diplomacy Operations on Twitter, during the COVID-19 Crisis,” COVID-19 Working Group for Public Health and Social Sciences Research}{with Weiai Xu, Rui Wang, Celine Song and Miao Feng}{2020}{\begin{cvitems}
+\item \$1000
+\end{cvitems}}
+    \cventry{Korea Foundation,  () (30 million KRW, roughly \$27,000)}{Policy-oriented Research Support Program: “Empowerment of Public Diplomacy Curriculum at Universities”}{Hankuk University of Foreign Studies (with Lee Sang-Hwan et al.)}{2019}{\begin{cvitems}
+\item 30 million KRW (roughly \$27,000)
+\end{cvitems}}
+    \cventry{Academy of Korean Studies}{Korean Studies Grant: “Capturing the Imagined Reality: A Study of South Korean Country Image”}{with Efe Sevin and Diana Ingenhoff}{2019}{\begin{cvitems}
+\item \$40,000
+\end{cvitems}}
+    \cventry{Korea Foundation}{Policy-oriented Research Support Program: “Rethinking Inter-Korean Social Exchanges in Turbulent Times”}{with Rafal Smoczynski and Park Han-Woo}{2019}{\begin{cvitems}
+\item \$50,000
+\end{cvitems}}
+    \cventry{Korea Foundation}{Policy-oriented Research Support Program: Realizing the Public Diplomacy Potential of Korean Government Scholarship- A Mixed Study of Alumni and Current Students”}{with Nancy Snow and Moamen Gouda}{2019}{\begin{cvitems}
+\item \$40,000
+\end{cvitems}}
+    \cventry{Korea Foundation}{Policy-oriented Research Support Program: “People-to-People Diplomacy in Inter-Korean Relations”}{with Rafal Smoczynski}{2018}{\begin{cvitems}
+\item \$50,000
+\end{cvitems}}
+    \cventry{Korea Foundation}{Policy-oriented Research Support Program: “Korean Government Scholarship Program (KGSP) as a Public Diplomacy Tool”}{with Nancy Snow}{2018}{\begin{cvitems}
+\item \$40,000
+\end{cvitems}}
+    \cventry{Korean Ministry of Foreign Affairs}{“Korea’s Diplomacy and Soft Power Conference”, article contest, and book on same topic}{Hangang Network}{2017}{\begin{cvitems}
+\item 19.8 million KRW (roughly \$18,000)
+\end{cvitems}}
+    \cventry{Korean Ministry of Foreign Affairs}{“Seoul Youth Forum” (16 events) on Korea’s Nation-Branding Strategy}{Hangang Network}{2016}{\begin{cvitems}
+\item 20 million KRW (roughly \$18,000)
+\end{cvitems}}
+    \cventry{Korean Ministry of Foreign Affairs}{“Korea’s Public Diplomacy Conference”, article contest, and book on same topic}{Hangang Network}{2016}{\begin{cvitems}
+\item 20 million KRW (roughly \$18,000)
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{invited-talks-selected}{%
+\section{Invited Talks (Selected)}\label{invited-talks-selected}}
+
+\begin{cventries}
+    \cventry{Jeju Forum - Korea Foundation Session}{Universal Values-based Public Diplomacy: Towards Peaceful Coexistence}{Jeju}{2022, September 14}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Korea-China 30th Anniversary of Diplomatic Relations Expert and Youth Forum}{30 Years of Korea-China Diplomatic Relations: Omnidirectional Diplomacy and Public Diplomacy}{Global Strategic Cooperation Research Center, Seoul}{2022, August 23}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{2022 Daegu-Gyeongbuk Public Diplomacy Symposium}{The Development Process of Public Diplomacy and Various Cases across the World}{Daegu}{2022,  June 3}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{72nd International Communication Association Annual Conference}{BLUE SKY WORKSHOP: Connecting Global South and Global North: Toward Decolonization of Public Diplomacy Scholarship and Methodology}{Zoom}{2022, May 27}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{2022 Overseas Koreans Friends Homecoming/ Cyber Youth Camp}{Public Diplomacy Cases from Across the World}{Studio recording}{2022, May 18}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Asia Europe Foundation’s 9th Public Diplomacy Training: Communicating with Purpose and Value}{Evaluation}{Zoom}{2022, April 13}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Korea Economic Institute}{South Korea’s Public Diplomacy during the COVID-19 Pandemic and Beyond}{Washington D.C.}{2022, January 27}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Korea-US Public Diplomacy Forum}{Panel: The Role of Korea-U.S. Public Diplomacy to Strengthen Alliance}{HUFS Media Diplomacy Center, Seoul}{2021, October 5}{}\vspace{-4.0mm}
+    \cventry{Panel: From Korea with Luv: South Korean Public Diplomacy in the Third Korean Wave}{Korea’s Public Diplomacy: Objectives, Actors, and Activities}{The University of Philippines Korea Research Center (Zoom)}{2021, August 6}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Citizen Diplomacy Research Group}{People-to-people Diplomacy: Empowerment of Citizens by Korea Foundation}{The University of Philippines Korea Research Center (Zoom)}{2021, August 4}{}\vspace{-4.0mm}
+    \cventry{Public Diplomacy Camp}{Public Diplomacy: Yesterday,  Today and Tomorrow}{Korea Foundation}{2021, July 31}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Public Diplomacy in Asia 2021}{Panel: Different Approaches in Measuring and Evaluating the Effectiveness of Public Diplomacy}{Korea Foundation}{2021, July 27}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Training for Korea Foundation Staff}{Public Diplomacy Complemented and Supplemented by Civil Society: The Case of Korea}{Korea Foundation}{2021, July 22}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{InAsia Forum}{South Korea’s Global Status-Seeking in a Multiplex World Order}{The Institute for Far Eastern Studies}{2021, June 6}{}\vspace{-4.0mm}
+    \cventry{Gwangju Democracy Forum}{Democracy and Korea’s Public Diplomacy: Beyond Rhetoric}{Zoom}{2021, May 20}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{University of Southern California}{Korea’s Public Diplomacy: Objectives, Actors and Activities}{Zoom}{2021, April 21}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{The KAPD 2020 International Conference \& Annual Conference: Public Diplomacy in the Age of Great Transformation}{Status-Seeking in a Multiplex World Order: Korea’s Public Diplomacy in the Age of COVID-19}{Seoul}{2020 November 27}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Keimyung University}{Public Diplomacy Cases from around the World}{Zoom}{2020, November 17}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{C20 Korea Forum}{G20 and Korea’s Public Diplomacy}{KOICA}{2020, November 12}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{The 6th International Symposium of Asian Development Studies}{Active Learning in Digitalized Education: Challenges and Opportunities}{Zoom}{2020, October 23}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Korea Foundation}{Host for 3rd Public Diplomacy Week of Korea Foundation Keynote Session with Joseph Nye}{Live Studio Recording}{2020, October 14}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Korea Global Forum for Peace 2020}{Inter-Korean People-to-People Diplomacy: Social and Cultural Exchanges across the 38th Parallel}{Zoom}{2020, September 8}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Korea Foundation (Orientation for People-to-People Diplomacy Project Participants)}{Relational People-to-People Diplomacy}{Zoom}{2020, June 27}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Korea Foundation}{Public Diplomacy Cases from around the World}{Youtube recording in studio}{2020, June 15}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Korea Foundation (Public Diplomacy Practitioner Training)}{Korean Public Diplomacy in the 2020s}{Zoom}{2020, June 11}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Jeju University-Korea Foundation Conference on COVID-19 and Public Diplomacy}{Turkish Public Diplomacy amid COVID-19: Status-Seeking in a Multiplex World Order}{Zoom}{2020, June 3}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Chungnam University}{People-to-People Diplomacy}{Recorded Lecture}{2020, June 1}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Sookmyung Women’s University}{Social Identity and Intergroup Communication}{Zoom}{2020, April 7}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Ajou University}{Understanding Power in World Politics}{Suwon}{2019, December 9}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Jeju National University}{History and Future of Public Diplomacy}{Jeju}{2019, November 28}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Ajou University}{Climate Action Simulation}{Suwon}{2019, November 25}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Keimyung University}{Foreign Policy Objectives and Public Diplomacy in 2010s}{Daegu}{2019, November 11}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Ministry of Foreign Affairs Policy-oriented Public Diplomacy Advisory Meeting}{Assessment and Evaluation in Korean Public Diplomacy}{Incheon}{2019, November 9}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Chungnam University}{History and Present of Public Diplomacy}{Daejon}{2019, November 4}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Korea Foundation}{Understanding People-to-People Diplomacy}{Seoul}{2019, August 19}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Ministry of Foreign Affairs (closed roundtable)}{Let the Sun Shine? Inter-Korean People-to-People Diplomacy in the Absence of State-based Public Diplomacy}{Seoul}{2019, August 12}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Korea Foundation Public Diplomacy Academy}{Recent Trends in Public Diplomacy Literature}{Seoul}{2019, July 30}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Yonsei University}{Korean Public Diplomacy: Objectives, Actors, and Acvitivies}{Incheon}{2019, May 9}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Korea Public Diplomacy Association}{Relational Public Diplomacy at Grassroots}{Seoul}{2019, April 6}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{1st Public Diplomacy Week}{People-to-People Diplomacy in Korea}{Seoul}{2018, November 3}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{University of Warsaw}{How Do European Recipients of Korean Government Scholarship View Korea?}{Warsaw}{2018, October 5}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Jeju Forum - Ministry of Foreign Affairs Session}{Vision and Strategy of Public Diplomacy for Peace and Prosperity in the Korean Peninsula and in Northeast Asia}{Jeju}{2018, June 26}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{UNITAR CIFAL Jeju/ JITC Partnership Program for Diplomats}{Understanding Public Diplomacy}{Jeju}{2017, November 23}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Ministry of Foreign Affairs Roundtable Panel Discussion: Cultural Diplomacy with New Media at the era of the 4th Industrial Revolution}{Relational and Collaborative Dynamics of Cultural Diplomacy}{Seoul}{2017, November 21}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Ajou University CEO Education Program}{Cultural Diversity and Dialogue}{Suwon}{2017, October 24}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{UNITAR CIFAL Jeju/ JITC Policy Workshop: Cultural Tourism for Sustainable Development in the Asia-Pacific Region}{Sustainable Cultural Tourism for Economic Development}{Jeju}{2017, October 10}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Multicultural Education Academic Forum}{If We Guarantee Cultural Diversity, We Guarantee Korean Society’s Future}{Ministry of Education \& National Institute for Lifelong Education}{2016, November 10}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{UNESCO Korea Commission}{Cultural Diversity and Global Citizen” Global Citizenship Education}{Seoul}{2016, October 25}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Public Diplomacy and Returnees Forum}{Alumni as a Tool of Public Diplomacy}{Ministry of Foreign Affairs \& ISF}{2015, November 17}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{ISR Academy - International Sports Relations Foundation}{Relational Public Diplomacy through Sports}{Incheon}{2015, November 4}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{Policy Panel Forum: Introduction of Overseas Koreans’ Proportional Representation in the Parliament}{The Consequences of Turkish Election Campaigns in Europe}{Korean National Assembly, Seoul}{2015, April 27}{\begin{cvitems}
+\item Korean
+\end{cvitems}}
+    \cventry{Working Group Developing Public Diplomacy Policy for Korea as Middle Power}{Sixth KF Global Seminar Middle Powers and Public Diplomacy Building a Network for the Global Public Good}{Korea Foundation, Seoul}{2013, November 21}{\begin{cvitems}
+\item English
+\end{cvitems}}
+    \cventry{International Symposium for the Glocalization of Hallyu and Religion}{Hallyu in the Middle-East: Does Cultural Proximity or a Sense of Coevalness Exist?}{Yonsei University, Seoul}{2013, November 14}{\begin{cvitems}
+\item English
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{conference-presentations-selected}{%
+\section{Conference Presentations
+(Selected)}\label{conference-presentations-selected}}
+
+\begin{cventries}
+    \cventry{The Korean Association of International Studies Annual Conference}{The Determinants of US Public Diplomacy: Countering Adversary Influence All the Way}{Seoul}{2022 June}{}\vspace{-4.0mm}
+    \cventry{International Studies Association Annual Convention}{The Determinants of United States’ Public Diplomacy Spending Abroad}{Zoom}{2022 March}{}\vspace{-4.0mm}
+    \cventry{Korea-China 30th Anniversary of Diplomatic Relations Expert and Youth Forum}{An experiment on the multiplier effect: A study on inter-Korean people-to-people exchanges}{Zoom}{2022 March}{\begin{cvitems}
+\item Ayhan, K. J., Park, S., Bier, L., Park, H.
+\end{cvitems}}
+    \cventry{Korean International Studies Association 13th Annual Convention \& Asia Pacific International Studies Association 15th Congress}{Does Democratization Work? United States’ Civil-society Aid and Democracy in the Recipient Countries}{Zoom}{2021 November}{\begin{cvitems}
+\item Higgins, P., Ayhan, K. J.
+\end{cvitems}}
+    \cventry{International Communication Association Annual Conference}{Rethinking Soft Power with Alternative Explanations: Appealing to Fear, Appetite or Spirit}{Zoom}{2021 May}{}\vspace{-4.0mm}
+    \cventry{International Communication Association Annual Conference}{Evaluations of People, Affective Connection and Recommendation toward a Host Country: Case Study of Global Korea Scholarship (GKS) Recipients}{Zoom}{2021 May}{\begin{cvitems}
+\item Tam, L., Ayhan, K. J.
+\end{cvitems}}
+    \cventry{International Studies Association Annual Convention}{South Korea’s Global Status-Seeking in a Multiplex World Order}{Zoom}{2021 April}{}\vspace{-4.0mm}
+    \cventry{International Studies Association Annual Convention}{The Process Evaluation of Korean Public Diplomacy: A Logic of Practice Approach}{Zoom}{2021 April}{\begin{cvitems}
+\item Kim, Y., Ayhan, K. J.
+\end{cvitems}}
+    \cventry{The KAPD 2020 International Conference \& Annual Conference: Public Diplomacy in the Age of Great Transformation}{International Scholarship Students in South Korea: Determinants of Intention to Work in the Host Country After Graduation}{Zoom}{2020 November}{\begin{cvitems}
+\item Istad, F., Varpahovskis, E., Miezan, E., Ayhan, K. J.
+\end{cvitems}}
+    \cventry{International Studies Association Asia-Pacific Conference}{Learning International Relations Theories in the Marvel Universe: The Black Panther of Wakanda}{Singapore}{2019 July}{\begin{cvitems}
+\item Ayhan, K. J., Gouda, M.
+\end{cvitems}}
+    \cventry{KAIDEC Conference: In Search for a Sustainable Ecosystem for International Development: Challenges for the Future}{Development Dynamics of Korean Government Scholarship Program}{Seoul}{2019 June}{}\vspace{-4.0mm}
+    \cventry{International Communication Association Pre-Conference: North Korea and Communication}{Let the Sun Shine? Inter-Korean People-to-People Diplomacy in the Absence of State-based Public Diplomacy}{Washington D.C.}{2019 May}{\begin{cvitems}
+\item Ayhan, K. J., Jang, S.
+\end{cvitems}}
+    \cventry{WATEF Conference: Social Exchanges and Public Diplomacy on the Korean Peninsula}{Can the Country Image Predict Relationship Management Behavior}{Seoul}{2019 April}{\begin{cvitems}
+\item Varpahovskis, E., Ayhan, K. J.
+\end{cvitems}}
+    \cventry{International Studies Association Annual Convention}{Nurturing Friends of Korea: Korean Government Scholarship Program as a Public Diplomacy Tool}{Toronto}{2019 March}{\begin{cvitems}
+\item Ayhan, K. J., Gouda, M.
+\end{cvitems}}
+    \cventry{International Studies Association Annual Convention}{Roundtable: International Politics and Innovative Learning: (IPIL) - From Process to Progress}{Toronto}{2019 March}{}\vspace{-4.0mm}
+    \cventry{International Studies Association Annual Convention}{Roundtable: New Perspectives on Non-State Diplomacy: Situating Empirical Framework in the Context of Non-Western Countries}{Toronto}{2019 March}{}\vspace{-4.0mm}
+    \cventry{International Studies Association Midwest}{The Use of Science Fiction Films to Facilitate Active Cognitive Processing: The Power Workshop}{St. Louis}{2018 November}{}\vspace{-4.0mm}
+    \cventry{International Studies Association Midwest}{How Do Korean Government Scholarship Recipients Think About Korea?}{St. Louis}{2018 November}{\begin{cvitems}
+\item Ayhan, K. J., Gouda, M., Lee, H.
+\end{cvitems}}
+    \cventry{International Political Science Association 25th World Congress}{Ideas Matter in Inter-Korean Relations: Analyzing People-to-People Exchanges}{Brisbane}{2018 July}{}\vspace{-4.0mm}
+    \cventry{International Studies Association Annual Convention}{Consolidating Global Korea Scholarship as a Public Diplomacy Tool}{San Francisco}{2018 April}{\begin{cvitems}
+\item Ayhan, K. J., Gouda, M.
+\end{cvitems}}
+    \cventry{International Studies Association Annual Convention}{Korea’s Middle Power Diplomacy as a Nation Branding Project}{San Francisco}{2018 April}{}\vspace{-4.0mm}
+    \cventry{Change in the Higher Education Landscape: The Power of Intercultural Networks in Innovative Learning (ISA Working Group)}{Active Learning through Critical Thinking: Identifying Power in Fictional Films}{San Francisco}{2018 April}{}\vspace{-4.0mm}
+    \cventry{Korea International Studies Association Annual Conference}{Are We All Public Diplomats? A Classification of Korean ‘Diplomatic NGOs}{Seoul}{2017 November}{}\vspace{-4.0mm}
+    \cventry{International Communication Association Annual Conference}{The Boundaries of Public Diplomacy Actorness: A Classification of Korean Diplomatic NGOs}{San Diego}{2017 May}{}\vspace{-4.0mm}
+    \cventry{International Communication Association Post-Conference: Bridging Practice and Disciplinary Perspectives on the Formation and Effects of Country Image, Reputation, Brand, and Identity}{A Network of Young Korean Public Diplomacy Activists: VANK}{San Diego}{2017 May}{}\vspace{-4.0mm}
+    \cventry{Korea in the World}{Utilizing Non-State Actors for South Korea’s Public Diplomacy}{Ewha Womans University, Seoul}{2014 May}{}\vspace{-4.0mm}
+    \cventry{Change of Korean Society and Social Science’s Response}{Asking Social Connections and Volunteerism in Standardized Questions: The Case of Turkish Civil Society}{Seoul National University, Seoul}{2013 December}{}\vspace{-4.0mm}
+    \cventry{ICAPA Annual Conference}{Popular Culture and East Asian Regionalization}{Ulaan Baatar}{2012 August}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{awards-and-honors}{%
+\section{Awards and Honors}\label{awards-and-honors}}
+
+\begin{cventries}
+    \cventry{Korean Government Scholarship}{Korean Language Education and Ph.D. Program}{}{2010 - 2015}{}\vspace{-4.0mm}
+    \cventry{Distinguished Thesis Award}{Seoul National University Graduate School of International Studies}{}{2010}{}\vspace{-4.0mm}
+    \cventry{High Honor Award}{Seoul National University Graduate School of International Studies}{}{2010}{}\vspace{-4.0mm}
+    \cventry{Scholarship}{Global Sharing Foundation}{}{2009}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{teaching-experience}{%
+\section{Teaching Experience}\label{teaching-experience}}
+
+\begin{cventries}
+    \cventry{Instructor}{Graduate School of International Studies, Ewha Womans University}{}{2021 - Present}{\begin{cvitems}
+\item Writing and Publishing a Journal Article
+\item Soft Power in World Politics
+\item International Security
+\item International Relations of East Asia
+\end{cvitems}}
+    \cventry{Instructor}{Ewha Womans University}{}{2021 - Present}{\begin{cvitems}
+\item Introduction to International Politics (Division of International Studies)
+\item Public Diplomacy (International Summer College)
+\end{cvitems}}
+    \cventry{Instructor}{Center for Teaching and Learning, Hankuk University of Foreign Studies}{}{2020}{\begin{cvitems}
+\item Digital Active Learning Pedagogy
+\end{cvitems}}
+    \cventry{Instructor}{Division of International Studies, Hankuk University of Foreign Studies}{}{2017 - 2021}{\begin{cvitems}
+\item International Relations Theory
+\item Public Diplomacy
+\item Power in World Politics
+\item International Relations of Asia
+\item Transnational Actors in World Politics
+\item Global Governance and NGOs
+\end{cvitems}}
+    \cventry{Instructor}{Graduate School of International and Area Studies, Hankuk University of Foreign Studies}{}{2017-2020}{\begin{cvitems}
+\item Theory and Practice of Public Diplomacy
+\item Soft Power and International Development Cooperation
+\item Global Governance and NGOs
+\item Transnational Issues and Actors in World Politics
+\item Policy Analysis Workshop
+\item Professional Development Seminar
+\end{cvitems}}
+    \cventry{Instructor}{Graduate School of International Studies, Seoul National University}{}{2015-2017}{\begin{cvitems}
+\item Theory and Practice of Public Diplomacy
+\item Global Governance and NGOs
+\end{cvitems}}
+    \cventry{Instructor}{Graduate School of International Studies, Ajou University}{}{2016-2017}{\begin{cvitems}
+\item Global Governance and NGOs
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{service-to-profession}{%
+\section{Service to Profession}\label{service-to-profession}}
+
+\begin{cventries}
+    \cventry{Editor-in-Chief (Inaugural)}{Journal of Public Diplomacy}{}{2020 - Present}{}\vspace{-4.0mm}
+    \cventry{Associate Editor}{Journal of Contemporary Eastern Asia}{}{2017 - Present}{}\vspace{-4.0mm}
+    \cventry{Board Member (Inaugural)}{Korea Association for Public Diplomacy}{}{2020 - Present}{}\vspace{-4.0mm}
+    \cventry{Executive Committee Member}{International Studies Association International Communication Section (ISA ICOMM)}{}{2020 - Present}{}\vspace{-4.0mm}
+    \cventry{Section Chair}{International Studies Association International Communication Section (ISA ICOMM)}{}{2022 - Present}{}\vspace{-4.0mm}
+    \cventry{Editorial Board Member}{Korean Journal of International Studies}{}{2022 - Present}{}\vspace{-4.0mm}
+    \cventry{Associate Editor}{Quality \& Quantity}{}{2019-2021}{}\vspace{-4.0mm}
+    \cventry{Founder and Organizer}{Korea Public Diplomacy Colloquium (which later became the foundation of Korea Association for Public Diplomacy)}{}{2019 - 2020}{}\vspace{-4.0mm}
+    \cventry{Outreach Committee Member}{Korea Association of International Development and Cooperation}{}{2018-2020}{}\vspace{-4.0mm}
+    \cventry{Founding Member and Outreach Committee Member}{International Studies Association International Politics and Innovative Learning (IPIL) Network}{}{2018-2020}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{service-to-community}{%
+\section{Service to Community}\label{service-to-community}}
+
+\begin{cventries}
+    \cventry{President}{Hangang Network for Academic and Cultural Exchanges}{}{2020 - Present}{\begin{cvitems}
+\item 2016-2020, Executive Director
+\end{cvitems}}
+    \cventry{Vice Director}{New Silk Road Institute}{}{2018 - Present}{}\vspace{-4.0mm}
+    \cventry{Co-founder and Board Member}{Global Public Diplomacy Center}{}{2019 - 2021}{}\vspace{-4.0mm}
+    \cventry{Member}{Dol Dahm Club, Korea Ministry of Foreign Affairs}{}{2017 - 2019}{}\vspace{-4.0mm}
+    \cventry{Honorary Envoy}{Korea's Public Diplomacy Scholars Group, Korea Ministry of Foreign Affairs}{}{2013 - 2017}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{advisor-reviewer-referee-jury-selected}{%
+\section{Advisor/ Reviewer/ Referee/ Jury
+(Selected)}\label{advisor-reviewer-referee-jury-selected}}
+
+Korea Foundation, Korean Ministry of Foreign Affairs, International
+Communication Association Public Diplomacy Interest Group, International
+Studies Quarterly, International Studies Review, International Studies
+Perspectives, Politics, Korea Observer, International Journal of
+Communication, International Journal of Cultural Policy, International
+Journal of Communication, Information Processing and Management,
+Globalizations, Quality \& Quantity, Global Media and Communication, The
+Hague Journal of Diplomacy, Place Branding and Public Diplomacy, Journal
+of Marketing Communications, Journal of Contemporary Eastern Asia,
+Insight Turkey, Korean Journal of International Studies, Journal of
+International and Area Studies, Asian International Studies Review,
+Pakistan Journal of Social Sciences
+
+\hypertarget{certificates}{%
+\section{Certificates}\label{certificates}}
+
+\begin{cventries}
+    \cventry{Participation}{Summer Institute for Computational Social Science – Korea (KAIST)}{}{2022}{}\vspace{-4.0mm}
+    \cventry{Bayesian Modeling with RJAGS, Bayesian Regression Modeling with rstanarm, Fundamentals of Bayesian Data Analysis in R, Text Mining with Bag-of-Words in R, Introduction to Text Analysis in R, Datacamp Topic Modeling in R, Introduction to Python}{Datacamp}{}{2022}{}\vspace{-4.0mm}
+    \cventry{Introduction to R, Intermediate R, Introduction to Tidyverse, Data Manipulation with dplyr, Joining Data with dplyr, Introduction to Data Visualization with ggplot2, Exploratory Data Analysis in R, Case Study: Exploratory Data Analysis in R, Introduction to Statistics in R, Intermediate Data Visualization, Reporting with RMarkdown, Introduction to Regression in R, Intermediate Regression in R}{Datacamp Data Scientist with R Track}{}{2021-2022}{}\vspace{-4.0mm}
+    \cventry{R Basics, R Visualization, Probability, Inference and Modeling, Productivity Tools, Wrangling, Linear Regression, Machine Learning}{HarvardX on Edx Data Science Professional Certificate}{}{2021}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{other-publications}{%
+\section{Other Publications}\label{other-publications}}
+
+\textbf{Academic Blog Posts}
+
+2020,
+\href{https://www.uscpublicdiplomacy.org/blog/typology-people-people-diplomacy}{A
+Typology of People-to-People Diplomacy}, USC Center on Public Diplomacy
+
+2020,
+\href{https://www.uscpublicdiplomacy.org/blog/measuring-country-images-four-lessons-south-korea?utm_source=hootsuite\&utm_medium=\&utm_term=\&utm_content=\&utm_campaign=}{Measuring
+Country Images: Four Lessons from South Korea}, USC Center on Public
+Diplomacy (Sevin, E., Ayhan, K. J.¸Ingenhoff, D.,)
+
+2019,
+\href{https://www.uscpublicdiplomacy.org/blog/let\%E2\%80\%99s-delineate-boundaries-public-diplomacy}{Let's
+Delineate the Boundaries of Public Diplomacy}, USC Center on Public
+Diplomacy
+
+2018,
+\href{https://www.uscpublicdiplomacy.org/blog/inter-korean-people-people-diplomacy}{Inter-Korean
+People-to-People Diplomacy}, USC Center on Public Diplomacy
+
+\textbf{Columns in English (selected)}
+
+2019.08.15,
+\href{http://www.koreaherald.com/view.php?ud=20190815000192}{S. Korea,
+Japan should not let politics override personal ties}, Ayhan, K. J.,
+Snow, N.
+
+2018.11.03,
+\href{http://www.koreatimes.co.kr/www/opinion/2018/11/734_258046.html}{Thinking
+out loud about public diplomacy in Korea and beyond}, Snow N., Ayhan, K.
+J.
+
+\textbf{Columns in Korean (selected)}
+
+2020.02.07,
+\href{https://www.donga.com/news/List/Series_70040100000265/article/all/20200207/99578393/1}{Korea
+as Reflected on Twitter}
+
+2019.09.20,
+\href{http://www.donga.com/news/article/all/20190920/97489317/1}{21st
+Century Diplomat should be on the Streets}
+
+2019.07.12,
+\href{https://www.donga.com/news/List/Series_70040100000265/article/all/20190712/96438479/1}{The
+Importance of Inter-Korean Relations amid Talks of Co-hosting the World
+Cup}
+
+2019.06.07,
+\href{https://www.donga.com/news/List/Series_70040100000265/article/all/20190607/95879632/1}{South
+and North Korea as Seen from Washington}
+
+2019.05.03,
+\href{http://www.donga.com/news/List/Series_70040100000265/article/all/20190503/95363228/1}{`We'
+are the Strength of Korea}
+
+2019.03.26,
+\href{http://www.donga.com/news/List/Series_70040100000265/article/all/20190326/94729975/1}{Why
+Does a ``Multicultural'' Kid Has to go Gyeongbok Palace So Many Times?}
+
+2018.12.04,
+\href{http://www.donga.com/news/List/Series_70040100000265/article/all/20181204/93139052/1}{For
+MIKTA to Succeed}
+
+2018.10.30,
+\href{http://www.donga.com/news/List/Series_70040100000265/article/all/20181030/92643028/1}{Before
+Burning all the Bridges in International Relations}, Ayhan, K. J., Snow,
+N.
+
+2018.08.14,
+\href{http://www.donga.com/news/List/Series_70040100000265/article/all/20180814/91504198/1}{Just
+about to Get Respect as a Middle Power}
+
+2018.07.03,
+\href{http://www.donga.com/news/List/Series_70040100000265/article/all/20180703/90869259/1}{GKS
+Students' Views on Korea}
+
+2018.05.08,
+\href{http://www.donga.com/news/List/Series_70040100000265/article/all/20180508/89969581/1}{If
+the Research Centers Have Freedom of Expression, Public Diplomacy
+Blossoms}
+
+2018.04.03,
+\href{http://www.donga.com/news/List/Series_70040100000265/article/all/20180403/89427899/1}{What
+is There to Fear in in Inter-Korean Exchanges?}
+
+\hypertarget{languages}{%
+\section{Languages}\label{languages}}
+
+Turkish - Native
+
+English - Fluent
+
+Korean -- Fluent
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+Available upon request.
+
+
+
+\end{document}
