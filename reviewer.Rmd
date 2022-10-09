@@ -1,9 +1,13 @@
 # Advisor/ Reviewer/ Referee/ Jury (Selected)
 
 <!-- ```{r reviewer} -->
+
 <!-- ezpickr::pick("data/reviewer.xlsx") %>% -->
+
 <!--   tidyr::fill(-when, -why) %>% -->
+
 <!--   vitae::detailed_entries(what, when, with, where, why) -->
+
 <!-- ``` -->
 
-Korea Foundation, Korean Ministry of Foreign Affairs, International Communication Association Public Diplomacy Interest Group, International Studies Quarterly, International Studies Review, International Studies Perspectives, Politics, Korea Observer, International Journal of Communication, International Journal of Cultural Policy, International Journal of Communication, Information Processing and Management, Globalizations, Quality & Quantity, Global Media and Communication, The Hague Journal of Diplomacy, Place Branding and Public Diplomacy, Journal of Marketing Communications, Journal of Contemporary Eastern Asia, Insight Turkey, Korean Journal of International Studies, Journal of International and Area Studies, Asian International Studies Review, Pakistan Journal of Social Sciences
+Korea Foundation, Korean Ministry of Foreign Affairs, International Communication Association Public Diplomacy Interest Group, *International Studies Quarterly*, *International Studies Review*, *International Studies Perspectives*, *Politics*, *Pacific Focus*, *Korea Observer*, *International Journal of Communication*, *International Journal of Cultural Policy*, *International Journal of Communication*, *Information Processing and Management*, *Globalizations*, *Quality & Quantity*, *Global Media and Communication*, *The Hague Journal of Diplomacy*, *Place Branding and Public Diplomacy*, *Journal of Marketing Communications*, *Journal of Contemporary Eastern Asia*, *Insight Turkey*, *Korean Journal of International Studies*, *Journal of International and Area Studies*, *Asian International Studies Review*, *Pakistan Journal of Social Sciences*

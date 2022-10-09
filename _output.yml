@@ -12,4 +12,5 @@ vitae::awesomecv:
 #    - --biblatex
     - --lua-filter="lua/multiple-bibliographies.lua"
 #    - --lua-filter="lua/highlight-author.lua"
-    - --lua-filter="lua/strong.lua"
+#   - --lua-filter="lua/strong.lua"
+    - --lua-filter="lua/test.lua"
