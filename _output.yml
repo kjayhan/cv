@@ -10,7 +10,6 @@ vitae::awesomecv:
   pandoc_args:
 # !expr rmdfiltr::add_wordcount_filter(rmdfiltr::add_replace_ampersands_filter(rmdfiltr::add_citeproc_filter(args = "--lua-filter=lua/multiple-bibliographies.lua")))
 #    - --biblatex
-    - --lua-filter="lua/multiple-bibliographies.lua"
+  - --lua-filter="lua/multiple-bibliographies.lua"
 #    - --lua-filter="lua/highlight-author.lua"
-#   - --lua-filter="lua/strong.lua"
-    - --lua-filter="lua/test.lua"
+  - --lua-filter="lua/strong.lua"
