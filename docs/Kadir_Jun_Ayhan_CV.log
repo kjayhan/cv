@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.15)  16 OCT 2022 21:04
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.15)  24 OCT 2022 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -818,6 +818,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3]
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 16.0pt on input line 470.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -902,12 +904,12 @@ Package rerunfilecheck Info: File `Kadir_Jun_Ayhan_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32909 strings out of 477743
- 671082 string characters out of 5843482
- 1230261 words of memory out of 5000000
- 53415 multiletter control sequences out of 15000+600000
+ 32911 strings out of 477743
+ 671122 string characters out of 5843482
+ 1215283 words of memory out of 5000000
+ 53417 multiletter control sequences out of 15000+600000
  473623 words of font info for 119 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 114i,11n,118p,556b,635s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,12n,118p,556b,635s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Kadir_Jun_Ayhan_CV.pdf (13 pages).
