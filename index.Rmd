@@ -16,7 +16,7 @@ aboutme: |
   Assistant Professor of International Relations at Ewha Womans University Graduate School of International Studies.  
   `r format(Sys.Date(), "%B %d, %Y")`
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
-csl: "csl/apa7-cv.csl"
+csl: "csl/american-stat-assoc.csl"
 nocite: "@*"
 header-includes:
   - \usepackage{fancyhdr}
